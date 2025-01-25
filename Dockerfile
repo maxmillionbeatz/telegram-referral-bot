@@ -23,4 +23,4 @@ RUN chown -R appuser:appuser /app
 USER appuser
 
 # CMD ["python", "main.py"]
-CMD ["/bin/bash", "start.sh"]
+CMD ["/bin/bash", "/app/start.sh"]
