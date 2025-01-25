@@ -22,5 +22,4 @@ RUN chown -R appuser:appuser /app
 # Switch to the non-root user
 USER appuser
 
-# CMD ["python", "main.py"]
-CMD ["/bin/bash", "/app/start.sh"]
+CMD ["python", "main.py"]
