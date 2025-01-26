@@ -64,6 +64,6 @@ def main():
         close_db_pool()
 
 
-# if __name__ == "__main__":
-#     ensure_single_instance()  # Prevent multiple instances
-#     main()  # Start the bot
+if __name__ == "__main__":
+    ensure_single_instance()  # Prevent multiple instances
+    main()  # Start the bot
